@@ -13,11 +13,10 @@ class NotesViewBody extends StatefulWidget {
 
 class _NotesViewBodyState extends State<NotesViewBody> {
   @override
-void initState(){
-BlocProvider.of<NotesCubit>(context).fetchAllNotes();
-super.initState();
-}
-
+  void initState() {
+    BlocProvider.of<NotesCubit>(context).fetchAllNotes();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +28,7 @@ super.initState();
             height: 50,
           ),
           CustomAppBar(
-            title: 'Notes',
+            title: 'My Notes',
             icon: Icons.search_rounded,
           ),
           Expanded(child: NotesListView())
