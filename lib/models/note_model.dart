@@ -6,8 +6,7 @@ part 'note_model.g.dart';
 @HiveType(typeId: 0) // Uniqe for every Class
 
 class NoteModel extends HiveObject {
-  @HiveField(
-      0) //Uniqe for the class Another Class can have the same HiveField index
+  @HiveField(0) //Uniqe for the class Another Class can have the same HiveField index
   final String title;
   @HiveField(1)
   final String subTitle;
