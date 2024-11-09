@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">My-Notes App 💻</h1>
+<h1 align="center" style="font-weight: bold;">My-Notes App 📝</h1>
 
 ### 🚀 Description 
 
